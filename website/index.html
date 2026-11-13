@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Threads, Hands & Heritage of Amritsar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600&family=Inter:wght@300;400;500;600&family=Caveat:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- ============================================ -->
+    <!-- GOLDEN THREAD SVG — Connects All Sections    -->
+    <!-- ============================================ -->
+    <svg class="golden-thread" id="goldenThread" aria-hidden="true">
+        <defs>
+            <linearGradient id="threadGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                <stop offset="0%" style="stop-color:#C5A14E;stop-opacity:0" />
+                <stop offset="10%" style="stop-color:#C5A14E;stop-opacity:1" />
+                <stop offset="90%" style="stop-color:#C5A14E;stop-opacity:1" />
+                <stop offset="100%" style="stop-color:#C5A14E;stop-opacity:0" />
+            </linearGradient>
+            <filter id="threadGlow">
+                <feGaussianBlur stdDeviation="2" result="blur"/>
+                <feMerge>
+                    <feMergeNode in="blur"/>
+                    <feMergeNode in="SourceGraphic"/>
+                </feMerge>
+            </filter>
+        </defs>
+        <path id="threadPath" fill="none" stroke="url(#threadGradient)" stroke-width="2" filter="url(#threadGlow)" />
+    </svg>
+
+    <!-- ============================================ -->
+    <!-- HERO SECTION                                  -->
+    <!-- ============================================ -->
+    <section class="hero" id="hero">
+        <div class="hero-particles" id="heroParticles"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="hero-subtitle-top reveal-up">An IIM Amritsar Social Involvement Project</div>
+            <h1 class="hero-title">
+                <span class="title-line reveal-up" style="--delay: 0.2s">Threads,</span>
+                <span class="title-line reveal-up" style="--delay: 0.4s">Hands</span>
+                <span class="title-amp reveal-up" style="--delay: 0.5s">&</span>
+                <span class="title-line reveal-up" style="--delay: 0.6s">Heritage</span>
+                <span class="title-of reveal-up" style="--delay: 0.8s">of Amritsar</span>
+            </h1>
+            <div class="hero-tagline reveal-up" style="--delay: 1s">
+                Where every lane holds a legacy, every hand tells a story
+            </div>
+            <div class="scroll-indicator reveal-up" style="--delay: 1.4s">
+                <div class="scroll-line"></div>
+                <span>Scroll to begin the journey</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- INTRODUCTION                                  -->
+    <!-- ============================================ -->
+    <section class="intro-section" id="intro">
+        <div class="intro-container">
+            <div class="intro-ornament">❖</div>
+            <p class="intro-text reveal-up">
+                In the winding lanes of Amritsar, behind the golden glow of the Harmandir Sahib and the aromatic haze of streetside dhabas, there lives a quieter kind of gold — the kind shaped by calloused hands, kept alive by stubborn hearts, and passed down through whispered instructions from father to son, mother to daughter.
+            </p>
+            <p class="intro-text reveal-up" style="--delay: 0.2s">
+                These are the artisans of Amritsar. They do not make headlines. They make <em>history</em> — one hammer strike, one clay mold, one leather stitch, one carved knight at a time.
+            </p>
+            <p class="intro-text reveal-up" style="--delay: 0.4s">
+                This is their story. Follow the thread.
+            </p>
+            <div class="intro-ornament reveal-up" style="--delay: 0.6s">◆ ◆ ◆</div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- ARTISAN 1: HARIMANDAR JI — THE THATHERA      -->
+    <!-- ============================================ -->
+    <section class="artisan-section" id="harimandar" data-artisan="1">
+        <div class="artisan-thread-node"></div>
+        
+        <div class="artisan-header">
+            <div class="artisan-number reveal-up">I</div>
+            <h2 class="artisan-craft-title reveal-up">The Hammer's Song</h2>
+            <div class="artisan-craft-subtitle reveal-up">Thathera — The Art of Brass & Copper</div>
+        </div>
+
+        <div class="artisan-body">
+            <div class="artisan-photo-container reveal-left">
+                <div class="photo-frame">
+                    <img src="images/Harimandar ji.jpeg" alt="Harimandar ji, Thathera artisan of Jandyala Guru" class="artisan-photo" loading="lazy">
+                </div>
+                <div class="photo-caption">
+                    <span class="caption-name">Harimandar ji</span>
+                    <span class="caption-location">Jandyala Guru, Amritsar</span>
+                </div>
+            </div>
+            
+            <div class="artisan-story reveal-right">
+                <div class="story-text">
+                    <p class="story-drop-cap">
+                        In a village where time moves differently, an ancient rhythm persists — the sound of hammer on metal. Not the cold, mechanical clang of a factory, but something older, warmer, almost musical. In Jandyala Guru, a small settlement near Amritsar, this rhythm has echoed for nearly two centuries, ever since Maharaja Ranjit Singh invited skilled metalworkers to settle and form a craft colony that would serve homes, temples, and the great community kitchens of Punjab.
+                    </p>
+                    <p>
+                        They are called the <strong>Thathera</strong> — the hammerers. And Harimandar ji is one of the last keepers of this dying flame.
+                    </p>
+                    <p>
+                        The craft is deceptively simple in description but impossibly demanding in practice. Raw copper and brass sheets arrive from Jagadari in Haryana. The artisan heats the metal over wood fires — not too hot, not too cold; experience alone teaches this invisible threshold. Then comes the hammer. Strike after methodical strike, the flat sheet begins to yield, curving into shape. A <em>kadai</em> for cooking. A <em>paraat</em> for kneading dough. A <em>lota</em> for water. A simple glass. Each one entirely handmade. Three to four glasses per day — that is the pace of perfection.
+                    </p>
+                    
+                    <blockquote class="artisan-quote">
+                        <span class="quote-mark">"</span>
+                        There is nothing in the machine. It is handmade. It is a proper handmade.
+                        <span class="quote-mark">"</span>
+                        <cite>— Harimandar ji</cite>
+                    </blockquote>
+
+                    <p>
+                        But the world changed. Stainless steel flooded Indian kitchens — cheaper, lighter, requiring no tradition. Raw materials for traditional brass work cost twice as much. Urban youth saw copper vessels as relics of their grandmothers' kitchens, not treasures. Orders stopped. And with them, hope. Of the thriving community that once defined Jandyala Guru, only five percent of the original craft remains.
+                    </p>
+                    <p>
+                        Then, in 2014, UNESCO recognized what artisans always knew — this craft is not just about making pots. It is about survival, identity, and the stubborn refusal to let beauty vanish.
+                    </p>
+                    <p>
+                        And something remarkable happened. Organizations like <strong>Zishta</strong> found these artisans and forged a new kind of partnership — not exploitation, but collaboration. Artisans who once earned only during three or four months of high demand now have steady income year-round. Income jumps of twenty to forty times. Young, educated people are choosing to return to the hammer, knowing they can sustain themselves. That hasn't happened in decades.
+                    </p>
+                    <p>
+                        Today, over 650 Thathera artisans work across fifteen states. Their vessels reach 150,000 customers globally — from Chennai to the United Kingdom. Artisans who once earned a hundred rupees a day now build homes worth fifty lakhs.
+                    </p>
+                    <p class="story-emphasis">
+                        The hammer still strikes in Jandyala Guru. Not out of desperation anymore, but out of possibility. These vessels, shaped by hands that learned from other hands, passed down through centuries, are no longer relics. They are proof that heritage, when honored, becomes the future.
+                    </p>
+                </div>
+
+                <div class="craft-details">
+                    <div class="detail-card">
+                        <div class="detail-icon">⏳</div>
+                        <div class="detail-label">Legacy</div>
+                        <div class="detail-value">~200 Years</div>
+                    </div>
+                    <div class="detail-card">
+                        <div class="detail-icon">🏛️</div>
+                        <div class="detail-label">Recognition</div>
+                        <div class="detail-value">UNESCO 2014</div>
+                    </div>
+                    <div class="detail-card">
+                        <div class="detail-icon">🔨</div>
+                        <div class="detail-label">Daily Output</div>
+                        <div class="detail-value">3–4 Glasses</div>
+                    </div>
+                    <div class="detail-card">
+                        <div class="detail-icon">🌍</div>
+                        <div class="detail-label">Artisans Active</div>
+                        <div class="detail-value">650+ across 15 States</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- THREAD DIVIDER                                -->
+    <!-- ============================================ -->
+    <div class="thread-divider">
+        <div class="thread-ornament">✦</div>
+    </div>
+
+    <!-- ============================================ -->
+    <!-- ARTISAN 2: KIRPAN MAKERS                      -->
+    <!-- ============================================ -->
+    <section class="artisan-section artisan-reverse" id="kirpan" data-artisan="2">
+        <div class="artisan-thread-node"></div>
+        
+        <div class="artisan-header">
+            <div class="artisan-number reveal-up">II</div>
+            <h2 class="artisan-craft-title reveal-up">Sacred Steel</h2>
+            <div class="artisan-craft-subtitle reveal-up">The Kirpan Forgers of Amritsar</div>
+        </div>
+
+        <div class="artisan-body">
+            <div class="artisan-photo-container reveal-right">
+                <div class="photo-frame-group">
+                    <div class="photo-frame photo-frame-dual">
+                        <img src="images/Husan ji and Kuldip ji.jpeg" alt="Husan ji and Kuldip ji forging kirpans in their workshop" class="artisan-photo" loading="lazy">
+                    </div>
+                    <div class="photo-frame photo-frame-dual">
+                        <img src="images/Sahib Singh ji.jpeg" alt="Sahib Singh ji crafting kirpan sheaths" class="artisan-photo" loading="lazy">
+                    </div>
+                </div>
+                <div class="photo-caption">
+                    <span class="caption-name">Husan ji, Kuldip ji & Sahib Singh ji</span>
+                    <span class="caption-location">Kirpan Workshop, Amritsar</span>
+                </div>
+            </div>
+            
+            <div class="artisan-story reveal-left">
+                <div class="story-text">
+                    <p class="story-drop-cap">
+                        In a dimly lit workshop in the heart of Amritsar, sparks shower like tiny constellations as iron meets grinding wheel. The air is thick with the scent of hot metal and machine oil. This is no ordinary forge. This is where faith takes physical form — where raw iron is transformed into the Kirpan, the sacred blade that every baptized Sikh carries as one of the five articles of faith.
+                    </p>
+                    <p>
+                        Husan ji sits at the back of the workshop, hands darkened by seven decades of metalwork. He started around 1950, learning from his brother-in-law, and never stopped. Beside him, a younger pair of hands — <strong>Kuldip ji</strong> — works the grinding wheel with practiced ease. In an adjoining room, <strong>Sahib Singh ji</strong> carefully measures and cuts golden fabric, preparing the ornate sheaths that will house these sacred blades.
+                    </p>
+                    <p>
+                        A single Kirpan passes through eight to ten pairs of hands before it is complete. The iron is cut, then washed of its dark oxide coating, then shaped, then processed — ten to twelve times — each step demanding a different skill. One person cuts. Another grinds. Another polishes. Another fits the handle. Another crafts the sheath. It is an assembly of artistry, where every hand matters and no machine can replicate the soul of the work.
+                    </p>
+                    
+                    <blockquote class="artisan-quote">
+                        <span class="quote-mark">"</span>
+                        It passes through 8 to 10 hands. It is handcrafted. There is nothing that the machine can give you that these hands cannot.
+                        <span class="quote-mark">"</span>
+                        <cite>— Husan ji</cite>
+                    </blockquote>
+
+                    <p>
+                        The range is staggering — from simple Kirpans starting at ₹250 meant for daily wear, to masterworks costing one to two lakh rupees, adorned with gold and silver, destined for weddings, gurudwaras, and temple ceremonies. Containers of their work ship to America and Canada, carrying Amritsar's sacred craft across oceans.
+                    </p>
+                    <p>
+                        But Husan ji's eyes dim when he speaks of the future. <em>"The new generation is getting dark,"</em> he says — meaning they are moving away, choosing other paths. The old craftsmen still walk this road, but fewer footsteps follow. When asked if this is the last generation of hand-forged Kirpans, he pauses, then nods slowly.
+                    </p>
+                    <p class="story-emphasis">
+                        Machinery will come, he concedes. It already has for some. But a machine-made Kirpan and a hand-forged one — they are not the same thing. One is a product. The other carries seventy years of prayer in every stroke.
+                    </p>
+                </div>
+
+                <div class="craft-details">
+                    <div class="detail-card">
+                        <div class="detail-icon">⚔️</div>
+                        <div class="detail-label">Legacy</div>
+                        <div class="detail-value">70+ Years</div>
+                    </div>
+                    <div class="detail-card">
+                        <div class="detail-icon">🤲</div>
+                        <div class="detail-label">Hands per Piece</div>
+                        <div class="detail-value">8–10 Artisans</div>
+                    </div>
+                    <div class="detail-card">
+                        <div class="detail-icon">🌐</div>
+                        <div class="detail-label">Exports</div>
+                        <div class="detail-value">USA, Canada & Beyond</div>
+                    </div>
+                    <div class="detail-card">
+                        <div class="detail-icon">💰</div>
+                        <div class="detail-label">Price Range</div>
+                        <div class="detail-value">₹250 – ₹2,00,000</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- THREAD DIVIDER                                -->
+    <!-- ============================================ -->
+    <div class="thread-divider">
+        <div class="thread-ornament">✦</div>
+    </div>
+
+    <!-- ============================================ -->
+    <!-- ARTISAN 3: MANGA JI — THE TANDOOR MAKER      -->
+    <!-- ============================================ -->
+    <section class="artisan-section" id="manga" data-artisan="3">
+        <div class="artisan-thread-node"></div>
+        
+        <div class="artisan-header">
+            <div class="artisan-number reveal-up">III</div>
+            <h2 class="artisan-craft-title reveal-up">Fire & Clay</h2>
+            <div class="artisan-craft-subtitle reveal-up">The Tandoor Maker — A Partition Legacy</div>
+        </div>
+
+        <div class="artisan-body">
+            <div class="artisan-photo-container reveal-left">
+                <div class="photo-frame">
+                    <img src="images/Manga ji.jpeg" alt="Manga ji shaping a clay tandoor by the roadside, wearing a red turban" class="artisan-photo" loading="lazy">
+                </div>
+                <div class="photo-caption">
+                    <span class="caption-name">Manga ji</span>
+                    <span class="caption-location">Roadside Workshop, Amritsar</span>
+                </div>
+            </div>
+            
+            <div class="artisan-story reveal-right">
+                <div class="story-text">
+                    <p class="story-drop-cap">
+                        By the roadside in Amritsar, beneath the canopy of a banyan tree, a man in a crimson turban presses his palms into wet clay. He doesn't use a wheel. He doesn't use a mold. He uses his hands, his memory, and the weight of a story that stretches back across the most painful border in modern history.
+                    </p>
+                    <p>
+                        Manga ji makes <strong>tandoors</strong> — the great clay ovens that are the beating heart of Punjabi cuisine. Every naan, every roti, every tandoori chicken that has ever made a traveler weep with joy was born inside a vessel like the one taking shape beneath his weathered hands.
+                    </p>
+                    <p>
+                        But Manga ji's story begins not in Amritsar, but across the border — in Pakistan. His family brought this craft during the great migration of Partition, carrying nothing but their skills and their survival. His grandmother made tandoors. His mother made tandoors. And now, Manga ji makes tandoors. Three generations of hands shaping fire's home from the earth itself.
+                    </p>
+                    
+                    <blockquote class="artisan-quote">
+                        <span class="quote-mark">"</span>
+                        My grandmother used to make it, my mother used to make it, and I make it. We have been making tandoors from Pakistan to India.
+                        <span class="quote-mark">"</span>
+                        <cite>— Manga ji</cite>
+                    </blockquote>
+
+                    <p>
+                        The process is elemental — almost prehistoric in its simplicity. Clay, water, hands, and fire. He kneads the earth like dough, coiling it upward, smoothing it outward, creating a vessel that must withstand temperatures that would crack steel. Each tandoor is different — some for restaurants, some for homes, some for the cold winter months when families gather around the earthen warmth to cook with coal and wood.
+                    </p>
+                    <p>
+                        He sells his tandoors for as little as three hundred rupees. This is not a craft that makes a man rich. It is a craft that makes a man <em>real</em>. When asked if he has anything to say to the world, Manga ji simply smiles and says he would like people to call and ask his opinion. Not about business. Just to talk. Just to be heard.
+                    </p>
+                    <p class="story-emphasis">
+                        In a city of gold, Manga ji works in clay. But the warmth that rises from his tandoors has fed more souls than any precious metal ever could. He is the fire-keeper, the earth-shaper, the quiet inheritor of a craft that survived the flames of Partition itself.
+                    </p>
+                </div>
+
+                <div class="craft-details">
+                    <div class="detail-card">
+                        <div class="detail-icon">🔥</div>
+                        <div class="detail-label">Legacy</div>
+                        <div class="detail-value">3 Generations</div>
+                    </div>
+                    <div class="detail-card">
+                        <div class="detail-icon">🏠</div>
+                        <div class="detail-label">Origin</div>
+                        <div class="detail-value">Pre-Partition Pakistan</div>
+                    </div>
+                    <div class="detail-card">
+                        <div class="detail-icon">🏺</div>
+                        <div class="detail-label">Material</div>
+                        <div class="detail-value">Clay, Water & Fire</div>
+                    </div>
+                    <div class="detail-card">
+                        <div class="detail-icon">❄️</div>
+                        <div class="detail-label">Peak Season</div>
+                        <div class="detail-value">Winter Months</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- THREAD DIVIDER                                -->
+    <!-- ============================================ -->
+    <div class="thread-divider">
+        <div class="thread-ornament">✦</div>
+    </div>
+
+    <!-- ============================================ -->
+    <!-- ARTISAN 4: SIRAJ AHMED JI — TABLA MAKER       -->
+    <!-- ============================================ -->
+    <section class="artisan-section artisan-reverse" id="siraj" data-artisan="4">
+        <div class="artisan-thread-node"></div>
+        
+        <div class="artisan-header">
+            <div class="artisan-number reveal-up">IV</div>
+            <h2 class="artisan-craft-title reveal-up">Rhythm in Leather</h2>
+            <div class="artisan-craft-subtitle reveal-up">The Tabla Maker of Manna Singh Chowk</div>
+        </div>
+
+        <div class="artisan-body">
+            <div class="artisan-photo-container reveal-right">
+                <div class="photo-frame">
+                    <img src="images/Siraj Ahmed ji.jpeg" alt="Siraj Ahmed ji, tabla maker, sitting in the old lanes of Amritsar" class="artisan-photo" loading="lazy">
+                </div>
+                <div class="photo-caption">
+                    <span class="caption-name">Siraj Ahmed ji</span>
+                    <span class="caption-location">Manna Singh Chowk, Amritsar</span>
+                </div>
+            </div>
+            
+            <div class="artisan-story reveal-left">
+                <div class="story-text">
+                    <p class="story-drop-cap">
+                        In the narrow arteries of Amritsar's old city, where the walls lean toward each other like old friends sharing secrets, Siraj Ahmed ji sits cross-legged on a raised platform. Around him, the tools of his trade — leather hides, copper shells, iron rings, and a small hammer that has known his grip for twenty years. He is a <strong>tabla maker</strong>, and in his hands, silence is transformed into the possibility of music.
+                    </p>
+                    <p>
+                        Siraj ji came to Amritsar from a village in Uttar Pradesh fifteen years ago, following a family tradition that stretches back through his father, his elder brother, and his grandfather. The craft is in the blood — a hereditary knowledge of how to stretch goatskin over a copper shell, how to apply the syahi (the black paste that gives tabla its distinctive voice), how to tune the straps until the drum sings.
+                    </p>
+                    <p>
+                        Everything is made of leather, he explains. The drum heads, the straps, the bindings. But the shells — they are metal. Brass for one tone. Copper for another. Iron for weight. Steel for brightness. Each combination produces a different voice, and Siraj ji knows them all. He makes professional-grade tabla — the kind that renowned <em>ragis</em> and classical musicians seek out.
+                    </p>
+                    
+                    <blockquote class="artisan-quote">
+                        <span class="quote-mark">"</span>
+                        I work as an artist. I don't make it so quickly. There is a difference between making a tabla and <em>making</em> a tabla.
+                        <span class="quote-mark">"</span>
+                        <cite>— Siraj Ahmed ji</cite>
+                    </blockquote>
+
+                    <p>
+                        A single pair takes ten to twelve days to complete. He does not rush. He does not take shortcuts. When asked about competition from cheaper, readymade tablas flooding the market, he is philosophical: <em>"Handmade work takes more cost. But the product is very good."</em> He knows the difference between a drum that plays and a drum that <em>speaks</em>.
+                    </p>
+                    <p>
+                        His work has graced Punjabi University. His address at Manna Singh Chowk is whispered among musicians like a well-kept secret. And when asked about the future, Siraj Ahmed ji is serene: <em>"This generation will keep on going. This work will not stop until we get the leather."</em>
+                    </p>
+                    <p class="story-emphasis">
+                        In a city where the sacred hymns of the Harmandir Sahib float over the waters of the Sarovar every dawn, someone must make the instruments that carry devotion. Siraj Ahmed ji is that someone — a Muslim artisan in a Sikh holy city, crafting the drums that make prayer audible. In his workshop, faith has no religion. It only has rhythm.
+                    </p>
+                </div>
+
+                <div class="craft-details">
+                    <div class="detail-card">
+                        <div class="detail-icon">🥁</div>
+                        <div class="detail-label">Experience</div>
+                        <div class="detail-value">20 Years</div>
+                    </div>
+                    <div class="detail-card">
+                        <div class="detail-icon">🎵</div>
+                        <div class="detail-label">Time per Pair</div>
+                        <div class="detail-value">10–12 Days</div>
+                    </div>
+                    <div class="detail-card">
+                        <div class="detail-icon">📍</div>
+                        <div class="detail-label">Workshop</div>
+                        <div class="detail-value">Manna Singh Chowk</div>
+                    </div>
+                    <div class="detail-card">
+                        <div class="detail-icon">🎶</div>
+                        <div class="detail-label">Materials</div>
+                        <div class="detail-value">Leather, Brass, Copper</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- THREAD DIVIDER                                -->
+    <!-- ============================================ -->
+    <div class="thread-divider">
+        <div class="thread-ornament">✦</div>
+    </div>
+
+    <!-- ============================================ -->
+    <!-- ARTISAN 5: SURINDER PAL SINGH JI — CHESS      -->
+    <!-- ============================================ -->
+    <section class="artisan-section" id="surinder" data-artisan="5">
+        <div class="artisan-thread-node"></div>
+        
+        <div class="artisan-header">
+            <div class="artisan-number reveal-up">V</div>
+            <h2 class="artisan-craft-title reveal-up">The Knight's Move</h2>
+            <div class="artisan-craft-subtitle reveal-up">The Chess Piece Carver of Amritsar</div>
+        </div>
+
+        <div class="artisan-body">
+            <div class="artisan-photo-container reveal-left">
+                <div class="photo-frame">
+                    <img src="images/Surinder Pal Singh ji.jpeg" alt="Surinder Pal Singh ji smiling and holding a hand-carved chess piece" class="artisan-photo" loading="lazy">
+                </div>
+                <div class="photo-caption">
+                    <span class="caption-name">Surinder Pal Singh ji</span>
+                    <span class="caption-location">Amritsar</span>
+                </div>
+            </div>
+            
+            <div class="artisan-story reveal-right">
+                <div class="story-text">
+                    <p class="story-drop-cap">
+                        He holds up a small wooden horse between his thumb and forefinger, turning it slowly in the light. Every curve of the mane, every angle of the rearing legs, every flare of the nostrils has been carved by hand — his hand. Surinder Pal Singh ji is a <strong>chess piece carver</strong>, and the Knight is his masterpiece. In the ancient game of kings, the Knight is the most complex piece on the board — the only one that leaps, the only one that defies straight lines. It takes a special kind of mind to carve one, and a special kind of patience to do it beautifully.
+                    </p>
+                    <p>
+                        Surinder ji began learning this craft when he was in the eighth grade — a boy whose hands found their purpose before his mind even understood what that purpose meant. He apprenticed under a master carver, spending years learning how wood grain resists the chisel, how to coax curves from straight blocks, how to make a horse look like it's about to gallop off the chessboard.
+                    </p>
+                    <p>
+                        The work is meticulous. Different designs demand different timescales. Some pieces can be completed in a day. Others take much longer. The Knight, with its flowing mane and muscular form, is always the most difficult — customers rarely specify exact proportions, and the artisan must imagine the perfect horse and then bring it to life, millimeter by millimeter.
+                    </p>
+                    
+                    <blockquote class="artisan-quote">
+                        <span class="quote-mark">"</span>
+                        The best game and the best exercise of mind is to play chess. People should know how hard it is to make these pieces.
+                        <span class="quote-mark">"</span>
+                        <cite>— Surinder Pal Singh ji</cite>
+                    </blockquote>
+
+                    <p>
+                        His workshop takes custom orders — sets carved in fine wood, adorned with gold leaf, finished in silver. From tournament-grade sets to ornamental masterworks, each piece carries the signature of hands that have been carving for longer than most people have been alive.
+                    </p>
+                    <p>
+                        When asked if he wants his children to follow in his footsteps, Surinder ji's answer is remarkable in its generosity: <em>"They can learn art. But they will do what they want to do."</em> No pressure. No guilt. Just the quiet confidence that beauty, once created, speaks for itself.
+                    </p>
+                    <p class="story-emphasis">
+                        In Amritsar, a city of big gestures — golden domes, flaming tandoors, sacred steel — Surinder Pal Singh ji works in miniature. But within each tiny carved horse lives the same spirit that defines this city: the belief that anything worth doing is worth doing with your hands, your heart, and your entire life.
+                    </p>
+                </div>
+
+                <div class="craft-details">
+                    <div class="detail-card">
+                        <div class="detail-icon">♞</div>
+                        <div class="detail-label">Learning Since</div>
+                        <div class="detail-value">8th Grade</div>
+                    </div>
+                    <div class="detail-card">
+                        <div class="detail-icon">🪵</div>
+                        <div class="detail-label">Specialty</div>
+                        <div class="detail-value">The Knight (Horse)</div>
+                    </div>
+                    <div class="detail-card">
+                        <div class="detail-icon">✨</div>
+                        <div class="detail-label">Custom Options</div>
+                        <div class="detail-value">Wood, Gold & Silver</div>
+                    </div>
+                    <div class="detail-card">
+                        <div class="detail-icon">🧠</div>
+                        <div class="detail-label">Philosophy</div>
+                        <div class="detail-value">"Exercise of Mind"</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- EPILOGUE                                      -->
+    <!-- ============================================ -->
+    <section class="epilogue" id="epilogue">
+        <div class="epilogue-overlay"></div>
+        <div class="epilogue-content">
+            <div class="epilogue-ornament reveal-up">❖</div>
+            <h2 class="epilogue-title reveal-up">The Thread That Binds</h2>
+            <div class="epilogue-text">
+                <p class="reveal-up">
+                    Five crafts. Six artisans. One city.
+                </p>
+                <p class="reveal-up" style="--delay: 0.15s">
+                    From the resonant clang of Harimandar ji's brass hammer in Jandyala Guru to the spark-lit forge where Husan ji shapes sacred Kirpans. From Manga ji's hands pressing earth into fire's vessel by the roadside, to the quiet workshop where Siraj Ahmed ji stretches leather across copper so that prayer may have rhythm. From the delicate chisel of Surinder Pal Singh ji, carving knights that leap across sixty-four squares of imagination.
+                </p>
+                <p class="reveal-up" style="--delay: 0.3s">
+                    These artisans do not know each other. They have never met. They work in different lanes, with different materials, for different purposes. But they are connected — by the thread of craftsmanship, by the golden thread of Amritsar itself. A thread that runs through every temple, every lane, every workshop, every pair of hands that has chosen tradition in a world racing toward forgetting.
+                </p>
+                <p class="epilogue-final reveal-up" style="--delay: 0.45s">
+                    Their hands have held the heritage of this city. <br>Now, their stories are in yours.
+                </p>
+            </div>
+            <div class="epilogue-ornament reveal-up" style="--delay: 0.6s">◆ ◆ ◆</div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- CREDITS / FOOTER                              -->
+    <!-- ============================================ -->
+    <footer class="site-footer" id="footer">
+        <div class="footer-content">
+            <div class="footer-project">
+                <div class="footer-logo">🧵</div>
+                <h3>Threads, Hands & Heritage of Amritsar</h3>
+                <p class="footer-subtitle">Social Involvement Project — Batch 2025-27</p>
+            </div>
+            
+            <div class="footer-info">
+                <div class="footer-block">
+                    <h4>About This Project</h4>
+                    <p>This website was created as part of the Social Involvement Project (SIP) at IIM Amritsar, a mandatory course designed to engage MBA participants with social issues at the local level. Through interviews and storytelling, we document the lives of artisans whose heritage crafts define the cultural identity of Amritsar.</p>
+                </div>
+                <div class="footer-block">
+                    <h4>Indian Institute of Management Amritsar</h4>
+                    <p>An institute of national importance committed to participating in the development of society at the local level.</p>
+                    <p class="footer-course">Course: Social Involvement Project (SIP)<br>Academic Year: 2026-27</p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>Made with reverence for the artisans of Amritsar</p>
+                <p class="footer-copy">© 2026 Group G01 — IIM Amritsar | All artisan stories shared with consent</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
