@@ -346,6 +346,27 @@ img {
     opacity: 0.7;
 }
 
+.collab-logo-link {
+    display: inline-block;
+    margin: 0.3rem 0;
+    transition: transform 0.3s ease;
+}
+
+.collab-logo-link:hover {
+    transform: scale(1.05);
+}
+
+.collab-logo-img {
+    width: 105px;
+    height: 105px;
+    object-fit: contain;
+    background: #ffffff;
+    border-radius: 50%;
+    padding: 8px;
+    border: 2px solid var(--gold);
+    box-shadow: 0 0 25px rgba(197, 161, 78, 0.35), 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
 .collab-ngo-name {
     font-family: var(--font-serif);
     font-size: clamp(1.8rem, 4vw, 2.8rem);
@@ -362,12 +383,64 @@ img {
     text-shadow: 0 0 40px rgba(197, 161, 78, 0.4);
 }
 
-.collab-badge-tagline {
-    font-family: var(--font-hand);
-    font-size: 1.15rem;
-    color: var(--text-on-dark);
-    opacity: 0.6;
-    max-width: 400px;
+.collab-philosophy-wrap {
+    margin: 0.2rem 0 0.8rem 0;
+}
+
+.collab-philosophy {
+    font-family: var(--font-sans);
+    font-size: 0.85rem;
+    font-weight: 700;
+    letter-spacing: 0.28em;
+    color: var(--ivory);
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 0.35rem 1.4rem;
+    border-top: 1px solid rgba(197, 161, 78, 0.4);
+    border-bottom: 1px solid rgba(197, 161, 78, 0.4);
+    text-shadow: 0 0 15px rgba(232, 224, 208, 0.3);
+}
+
+.collab-pillars {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-sm);
+    margin: 0.5rem 0 1rem 0;
+    max-width: 680px;
+    text-align: left;
+}
+
+.collab-pillar {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(197, 161, 78, 0.15);
+    padding: var(--space-sm);
+    border-radius: 2px;
+    transition: all 0.3s ease;
+}
+
+.collab-pillar:hover {
+    border-color: rgba(197, 161, 78, 0.4);
+    background: rgba(197, 161, 78, 0.06);
+    transform: translateY(-2px);
+}
+
+.pillar-keyword {
+    display: block;
+    font-family: var(--font-serif);
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--gold-light);
+    margin-bottom: 0.3rem;
+    letter-spacing: 0.05em;
+    border-bottom: 1px solid rgba(197, 161, 78, 0.2);
+    padding-bottom: 0.2rem;
+}
+
+.pillar-text {
+    font-size: 0.8rem;
+    line-height: 1.55;
+    color: rgba(232, 224, 208, 0.7);
+    margin: 0;
 }
 
 .collab-visit-btn {
@@ -944,6 +1017,27 @@ img {
     max-width: 600px;
 }
 
+.footer-logo-link {
+    display: inline-block;
+    transition: transform 0.3s ease;
+    margin: 0.2rem 0;
+}
+
+.footer-logo-link:hover {
+    transform: scale(1.05);
+}
+
+.footer-ngo-logo {
+    width: 75px;
+    height: 75px;
+    object-fit: contain;
+    background: #ffffff;
+    border-radius: 50%;
+    padding: 6px;
+    border: 2px solid var(--gold);
+    box-shadow: 0 0 20px rgba(197, 161, 78, 0.25);
+}
+
 .ngo-partner-label {
     font-family: var(--font-sans);
     font-size: 0.65rem;
@@ -966,6 +1060,19 @@ img {
 .ngo-partner-name:hover {
     color: var(--gold-light);
     text-shadow: 0 0 30px var(--gold-glow);
+}
+
+.ngo-philosophy {
+    font-family: var(--font-sans);
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.24em;
+    text-transform: uppercase;
+    color: var(--gold-light);
+    margin: 0.1rem 0 0.4rem 0;
+    opacity: 0.95;
+    border-bottom: 1px solid rgba(197, 161, 78, 0.3);
+    padding-bottom: 0.25rem;
 }
 
 .ngo-partner-desc {
@@ -1166,6 +1273,16 @@ img {
 
     .hero-overlay {
         margin: 1rem;
+    }
+
+    .collab-pillars {
+        grid-template-columns: 1fr;
+    }
+
+    .collab-philosophy {
+        font-size: 0.72rem;
+        letter-spacing: 0.18em;
+        padding: 0.3rem 0.8rem;
     }
 
     .craft-details {
