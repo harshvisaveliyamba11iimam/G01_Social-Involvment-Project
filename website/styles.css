@@ -357,14 +357,14 @@ img {
 }
 
 .collab-logo-img {
-    width: 105px;
-    height: 105px;
+    width: 130px;
+    height: 130px;
     object-fit: contain;
     background: #ffffff;
-    border-radius: 50%;
-    padding: 8px;
+    border-radius: 18px;
+    padding: 10px;
     border: 2px solid var(--gold);
-    box-shadow: 0 0 25px rgba(197, 161, 78, 0.35), 0 8px 20px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 25px rgba(197, 161, 78, 0.35), 0 8px 25px rgba(0, 0, 0, 0.3);
 }
 
 .collab-ngo-name {
@@ -1028,12 +1028,12 @@ img {
 }
 
 .footer-ngo-logo {
-    width: 75px;
-    height: 75px;
+    width: 90px;
+    height: 90px;
     object-fit: contain;
     background: #ffffff;
-    border-radius: 50%;
-    padding: 6px;
+    border-radius: 14px;
+    padding: 8px;
     border: 2px solid var(--gold);
     box-shadow: 0 0 20px rgba(197, 161, 78, 0.25);
 }
